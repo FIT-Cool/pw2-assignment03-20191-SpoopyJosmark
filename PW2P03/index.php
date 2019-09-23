@@ -14,6 +14,7 @@ include_once 'db_function/genre_func.php';
     <link rel="stylesheet" type="text/css"
           href="https://cdn.datatables.net/v/dt/jq-3.3.1/dt-1.10.18/datatables.min.css"/>
     <script type="text/javascript" src="https://cdn.datatables.net/v/dt/jq-3.3.1/dt-1.10.18/datatables.min.js"></script>
+    <script type="text/javascript" src="js/my_js.js"></script>
 </head>
 <body>
 <div class="page">
@@ -40,6 +41,9 @@ include_once 'db_function/genre_func.php';
                 break;
             case 'in';
                 include_once 'view/Insurance.php';
+                break;
+            case 'inu';
+                include_once 'view/InsuranceUpdate.php';
                 break;
             case 'pt';
                 include_once 'view/Patient.php';
