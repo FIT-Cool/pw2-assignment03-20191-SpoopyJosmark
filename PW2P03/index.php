@@ -48,6 +48,9 @@ include_once 'db_function/genre_func.php';
             case 'pt';
                 include_once 'view/Patient.php';
                 break;
+            case 'ptu';
+                include_once 'view/PatientUpdate.php';
+                break;
             default;
                 include_once 'view/Home.php';
         }
